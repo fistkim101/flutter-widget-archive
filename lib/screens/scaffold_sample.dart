@@ -34,11 +34,7 @@ class ScaffoldSample extends StatelessWidget {
           Icon(Icons.star),
         ],
       ),
-      body: Column(
-        children: [
-          Expanded(child: ColumnSample()),
-        ],
-      ),
+      body: ContainerSample(),
       // floatingActionButton: Text('floatingActionButton'),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
