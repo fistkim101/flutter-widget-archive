@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Widget Catalog',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        // useMaterial3: true,
         primarySwatch: Colors.green,
       ),
       // home: HomeScreen(),
