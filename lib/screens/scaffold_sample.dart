@@ -34,7 +34,7 @@ class ScaffoldSample extends StatelessWidget {
           Icon(Icons.star),
         ],
       ),
-      body: PopupMenuSample(),
+      body: DropDownButtonSample(),
       // floatingActionButton: Text('floatingActionButton'),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

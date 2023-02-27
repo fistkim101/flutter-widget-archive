@@ -15,7 +15,7 @@ class _PopupMenuSampleState extends State<PopupMenuSample> {
     return Center(
       child: PopupMenuButton(
           // child: Text('child'),
-          icon: Icon(Icons.star),
+          // icon: Icon(Icons.star),
           // enabled: false,
           onCanceled: () {
             print('onCanceled');
