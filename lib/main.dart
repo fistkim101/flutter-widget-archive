@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       // home: HomeScreen(),
-      home: TabBarSample(),
+      home: HomeScreen(),
     );
   }
 }
