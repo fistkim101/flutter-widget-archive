@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'screens/screens.dart';
+import 'widgets/widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       // home: HomeScreen(),
-      home: ScaffoldSample(),
+      home: TabBarSample(),
     );
   }
 }

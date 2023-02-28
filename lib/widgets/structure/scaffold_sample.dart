@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/widgets.dart';
+import '../widgets.dart';
 
 class ScaffoldSample extends StatelessWidget {
   const ScaffoldSample({Key? key}) : super(key: key);
@@ -35,12 +35,21 @@ class ScaffoldSample extends StatelessWidget {
         ],
       ),
       body: TextButtonSample(),
-      // floatingActionButton: Text('floatingActionButton'),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        tooltip: 'Increment Counter',
-        child: const Icon(Icons.add),
+      floatingActionButton: FloatingActionButton.extended(
+        // elevation: 10,
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+        label: const Text('Approve'),
+        icon: const Icon(Icons.thumb_up),
+        backgroundColor: Colors.pink,
       ),
+      // floatingActionButton: Text('floatingActionButton'),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {},
+      //   tooltip: 'Increment Counter',
+      //   child: const Icon(Icons.add),
+      // ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }

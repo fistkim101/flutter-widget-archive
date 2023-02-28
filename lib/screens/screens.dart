@@ -1,2 +1,2 @@
 export 'home_screen.dart';
-export 'scaffold_sample.dart';
+export '../widgets/structure/scaffold_sample.dart';
