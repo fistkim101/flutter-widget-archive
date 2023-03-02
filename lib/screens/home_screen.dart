@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../widgets/widgets.dart';
+import 'package:widget_archive/widgets/information/information.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -15,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Scaffold(
         body: Center(
-          child: ExpansionPanelSample(),
+          child: ToolTipSample(),
         ),
       ),
     );
