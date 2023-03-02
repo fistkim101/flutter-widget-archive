@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_archive/widgets/information/information.dart';
+
+import '../widgets/widgets.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -13,9 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Center(
-          child: ToolTipSample(),
-        ),
+        body: StepperSample(),
       ),
     );
   }
