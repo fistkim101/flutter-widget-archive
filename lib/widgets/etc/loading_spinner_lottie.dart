@@ -9,8 +9,9 @@ class LoadingSpinnerLottie extends StatefulWidget {
 class _LoadingSpinnerLottieState extends State<LoadingSpinnerLottie> {
   @override
   Widget build(BuildContext context) {
-    return Lottie.network(
-      'https://assets10.lottiefiles.com/packages/lf20_fpq9wG8yV3.json',
-    );
+    // return Lottie.network(
+    //   'https://assets10.lottiefiles.com/packages/lf20_fpq9wG8yV3.json',
+    // );
+    return Lottie.asset('assets/boy-avatar-listening-music-animation.json');
   }
 }

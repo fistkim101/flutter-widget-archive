@@ -34,7 +34,11 @@ class _ProgressSampleState extends State<ProgressSample> {
         opacity: 0.0,
         // color: Colors.red,
         color: Colors.white,
-        progressIndicator: LoadingSpinnerLottie(),
+        progressIndicator: Container(
+          height: 150,
+          width: 150,
+          child: LoadingSpinnerLottie(),
+        ),
         // progressIndicator: const Icon(
         //   Icons.star_border,
         //   size: 50,
