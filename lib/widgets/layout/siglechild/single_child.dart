@@ -6,3 +6,6 @@ export 'expanded_sample.dart';
 export 'fitted_box_sample.dart';
 export 'flexible_sample.dart';
 export 'fractionally_sized_box_sample.dart';
+export 'limited_box_sample.dart';
+export 'padding_sample.dart';
+export 'transform_sample.dart';
