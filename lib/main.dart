@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_archive/screens/home_screen.dart';
 
 import 'widgets/widgets.dart';
 
@@ -18,8 +19,7 @@ class MyApp extends StatelessWidget {
         // useMaterial3: true,
         primarySwatch: Colors.green,
       ),
-      // home: HomeScreen(),
-      home: ProgressSample(),
+      home: HomeScreen(),
     );
   }
 }
