@@ -31,9 +31,9 @@ class _ProgressSampleState extends State<ProgressSample> {
         ],
       ),
       body: ModalProgressHUD(
-        opacity: 0.0,
+        opacity: 0.2,
         // color: Colors.red,
-        color: Colors.white,
+        color: Colors.grey,
         progressIndicator: Container(
           height: 150,
           width: 150,
@@ -47,7 +47,19 @@ class _ProgressSampleState extends State<ProgressSample> {
         // blur: 0.5,
         inAsyncCall: _showSpinner,
         child: Center(
-          child: Text('hello'),
+          child: Column(
+            children: [
+              Text('hello'),
+              Text('hello'),
+              Text('hello'),
+              Text('hello'),
+              Text('hello'),
+              Text('hello'),
+              Text('hello'),
+              Text('hello'),
+              Text('hello'),
+            ],
+          ),
           // child: LoadingSpinnerLottie(),
         ),
       ),
